@@ -13,7 +13,8 @@ $(document).ready(function() {
                 if (currentTime > element.startTime && currentTime < element.endTime) {
                     if ($("#" + currentAd).length == 0) {
                         var html = '<div id="' + currentAd + '" class="overlay2" onclick=window.open("'+ element.storeUrl +'") style="display:inline; cursor:pointer; background-image:url('+ element.iconUrl +')"></div>';
-                         $("#adContainer").append(html);
+                        $(html).appendTo($("#adContainer")).slideDown("slow"); 
+                        //$("#adContainer").append(html).slideDown(1000);
                     }
                 }
                 else {
