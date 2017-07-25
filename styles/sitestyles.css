@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+video {
+position: fixed;
+z-index: -100;
+background-size: cover;
+width: 850px !important;
+height: 550px !important;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.videoContainer
+{
+  width:850px; height:500px; margin-left:auto; margin-right:auto;
+}
+
+body{
+  background-image: url("https://images.unsplash.com/photo-1461409971633-aa0e46732112?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+  background-repeat: repeat;
+}
+
+/* video {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+background-size: cover;
+} */
+
+/*****************************/
+
+.overlay {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background: rgba(0,0,0,0.3);
+  background-image: url("https://www.bollywoo.ooo/media/catalog/product/b/o/boogy_jacket_riffraf_pant.gif");
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+
+.overlay h1 {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  font-family: inherit;
+}
+
+.overlay p{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+.overlay a {
+  color: #fff;
+}
+
+.orange {
+  text-decoration: none;
+}
+ p a.orange {
+   color: #f27950;
+ }
