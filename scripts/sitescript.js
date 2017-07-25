@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $("#btnToggle").on("click", function(){
 
-        $("#idRanbeerPant").toggle();
+        $("#adContainer").toggle();
     });
 
     $.getJSON("/data/data.json", function (data) {
@@ -13,7 +13,7 @@ $(document).ready(function() {
                 if (currentTime > element.startTime && currentTime < element.endTime) {
                     if ($("#" + currentAd).length == 0) {
                         var html = '<div id="' + currentAd + '" class="overlay2" onclick=window.open("'+ element.storeUrl +'") style="display:inline; cursor:pointer; background-image:url('+ element.iconUrl +')"></div>';
-                         $("#idRanbeerPant").append(html);
+                         $("#adContainer").append(html);
                     }
                 }
                 else {
