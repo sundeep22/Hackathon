@@ -40,16 +40,11 @@ background-size: cover;
 .overlay {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  background: rgba(0,0,0,0.3);
-  background-image: url("https://www.bollywoo.ooo/media/catalog/product/b/o/boogy_jacket_riffraf_pant.gif");
-  background-size: cover;
+  
   display: block;
-  position: absolute;
+   position: absolute;
   top: 10%;
-  left: 70%;
+  left: 70%; 
 }
 
 .overlay h1 {
@@ -69,6 +64,38 @@ background-size: cover;
 }
 
 .overlay a {
+  color: #fff;
+}
+
+
+.overlay2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background: rgba(0,0,0,0.3);
+  background-size: cover;
+  display: inline-block !important; 
+}
+
+.overlay2 h1 {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  font-family: inherit;
+}
+
+.overlay2 p{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+.overlay2 a {
   color: #fff;
 }
 
