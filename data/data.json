@@ -1,6 +1,6 @@
-{[
-	{"startTime": "", "endTime": "", "iconUrl": "", "storeUrl": ""},
-	{"startTime": "", "endTime": "", "iconUrl": "", "storeUrl": ""},
-	{"startTime": "", "endTime": "", "iconUrl": "", "storeUrl": ""},
-	{"startTime": "", "endTime": "", "iconUrl": "", "storeUrl": ""}
-]}
+[
+	{"id": 1, "startTime": "4", "endTime": "8", "iconUrl": "", "storeUrl": ""},
+	{"id": 2, "startTime": "", "endTime": "", "iconUrl": "", "storeUrl": ""},
+	{"id": 3, "startTime": "", "endTime": "", "iconUrl": "", "storeUrl": ""},
+	{"id": 4, "startTime": "", "endTime": "", "iconUrl": "", "storeUrl": ""}
+]
