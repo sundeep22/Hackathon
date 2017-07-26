@@ -17,7 +17,7 @@ $(document).ready(function() {
                     }
                 }
                 else {
-                    $("#" + currentAd).slideUp("slow", function(){ $(this).remove(); });
+                    $("#" + currentAd).slideUp("slow", function(){ $(this).remove();  });
                 }
             });
         });

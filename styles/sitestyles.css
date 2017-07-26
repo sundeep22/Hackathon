@@ -40,11 +40,15 @@ background-size: cover;
 .overlay {
   width: 50px;
   height: 50px;
-  
+  background: rgba(0,0,0,0.5);
+  border-radius: 3%;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
   display: block;
    position: absolute;
   top: 10%;
   left: 70%; 
+  box-shadow: 0px 0px 15px #000000;
 }
 
 .overlay h1 {
@@ -79,7 +83,7 @@ background-size: cover;
   display: inline-block !important; 
   -moz-box-shadow: 0 0 25px #fff;
 -webkit-box-shadow: 0 0 25px #fff;
-box-shadow: 0px 0px 25px #fff;
+box-shadow: 0px 0px 6px #fff;
 }
 
 .overlay2 h1 {
