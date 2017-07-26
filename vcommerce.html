@@ -9,22 +9,36 @@
 
 </head>
 
-<body>
-    <div class="videoContainer">
-        <video controls autoplay loop="" id="bgvid">
-            <source type="video/mp4" src="tamasha.mp4" <img src="https://images.unsplash.com/photo-1458724338480-79bc7a8352e4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=0e8fe82e7f50091319fdc635582bf62d"
-                title="Your browser does not support the video tag">
-        </video>
+<body><div id="video-container" class="">
+    <video autoplay loop="" id="bgvid">
+        <source type="video/mp4" src="tamasha.mp4" <img src="https://images.unsplash.com/photo-1458724338480-79bc7a8352e4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=0e8fe82e7f50091319fdc635582bf62d"
+            title="Your browser does not support the video tag">
+    </video>
+    <div id="video-controls">
+        <button type="button" id="play-pause" style="padding:6px; margin-right:20px;">Play</button>
+        <span style="margin-right:20px;">
+            <input type="range" id="seek-bar" value="0">
+        </span>
+        <button type="button" id="mute" style="padding:6px; margin-right:20px;">Mute</button>
+        <span style="margin-right:20px;">
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+        </span>
+        <button type="button" id="full-screen" style="padding:6px; margin-right:30px;">Full-Screen</button>
+        <button id="btnToggle" value="Toggle Commercials" style="padding:6px;"> Ads </button>
+        
     </div>
-    <div style="margin-left:auto; margin-right:auto; width:100%;">
-        <button id="btnToggle" value="Toggle Commercials" > Toggle Commercials </button>
-    </div>
+</div>
+<div style="margin-left:auto; margin-right:auto; width:100%;">
+    
+</div>
 
-        <div id="adContainer" class="overlay" style="height:fit-content;">
-    </div>
+<div id="adContainer" class="overlay" style="height:fit-content;">
+</div>
 </body>
 
 </html>
 
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/scripts/sitescript.js"></script>
+    <script src="/scripts/videocontrols.js"></script>
+    
